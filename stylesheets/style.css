@@ -1,0 +1,17 @@
+@import "content.css";
+@import "reset.css";
+@import "responsive.css";
+
+@font-face {
+font-family: "Null";
+src: url("../font/Null-Normal.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face {
+font-family: "ProximaNova";
+src: url("../font/ProximaNova-Regular.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
