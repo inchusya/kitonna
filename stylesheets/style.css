@@ -15,6 +15,3 @@ src: url("../font/ProximaNova-Regular.ttf") format("truetype");
 font-style: normal;
 font-weight: normal;
 }
-body{
-  width: 100%;
-}
