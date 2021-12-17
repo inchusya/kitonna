@@ -108,18 +108,7 @@ grid-row-start: 3;
 grid-row-end: 4;
 height: 29vw}
 
-/* .mario{
-  width: 68px;
-  height: 68px;
-  display: block;
-  position: relative;
-  background: url('../img/mario-walk-n-jump-68.png');
-  animation:walk 0.9s steps(1) infinite;
-} */
 
-/* .whalesall{
-  width: 50%;
-margin-top: -6vw} */
 
 .text3{
   font-family: null;
