@@ -54,7 +54,12 @@ height: 5vw}
   margin-left: 12vw;
   margin-top: 2vw;
   float: left;
-  display: block;}
+  display: block;
+  opacity 1}
+
+.text1:hover {
+  opacity: 0.6;
+}
 
 .text2{
   font-family: null;
@@ -63,7 +68,12 @@ height: 5vw}
   margin-left: 54vw;
   margin-top: 2vw;
   float: left;
-  display: block;}
+  display: block;
+  opacity 1;}
+
+  .text2:hover {
+    opacity: 0.6;
+  }
 
 .whitebox{
   background: #ffffff;
@@ -117,19 +127,40 @@ margin-top: -6vw} */
   font-size: 4vw;
   margin-left: 2vw;
   margin-top: 2vw;
-po}
+  opacity 1}
+
+  .text3:hover {
+    opacity: 0.6;
+  }
 
 .weightimg{
   width: 50%;
   margin-left: 6vw;
   margin-top: -3vw;
+  }
+
+.weightimg:hover {
+ animation: transform 0.6s ease;}
+
+@keyframes transform {
+  15% {transform: translateX(3vw) scale(1.2);}
+  30% {transform: translateX(-3vw) scale(1.2);}
+  40% {transform: translateX(2vw) scale(1.2);}
+  50% {transform: translateX(-2vw) scale(1.2);}
+  65% {transform: translateX(1vw) scale(1.2);}
+  100% {transform: translateX(0) scale(1.2);}
 }
+
 .text104{
   font-family: null;
   color:#ffffff;
   font-size: 4vw;
   margin-left: 2vw;
   margin-top: 2vw;}
+
+  .text104:hover {
+   animation: transform 0.6s ease;
+   color:#EA513A}
 
 .whale { grid-area: whale;
   /* background: #ffffff; */
@@ -139,7 +170,7 @@ po}
   grid-row-start: 3;
   grid-row-end: 4;
   height: 29vw;
-  weight: 100%;
+  weight: 80%;
   animation:change 3s steps(1) infinite;
   animation-play-state: paused;}
 
@@ -158,7 +189,12 @@ po}
     color:#002EAB;
     font-size: 4vw;
     margin-left: 2vw;
-    margin-top: 2vw;}
+    margin-top: 2vw;
+    opacity 1}
+
+    .text4:hover {
+      opacity: 0.6;
+    }
 
 .tags { grid-area: tags;
   background: #ffffff;
@@ -173,7 +209,12 @@ po}
     color:#002EAB;
     font-size: 4vw;
     margin-left: 2vw;
-    margin-top: 2vw;}
+    margin-top: 2vw;
+    opacity 1}
+
+    .text5:hover {
+      opacity: 0.6;
+    }
 
 .empty { grid-area: empty;
   background: #A6B8E3;
@@ -191,22 +232,39 @@ po}
   grid-row-end: 5;
   height: 29vw}
 
+
+
 .text6{
     font-family: null;
     color:#ffffff;
     font-size: 4vw;
     margin-left: 2vw;
-    margin-top: 2vw;}
+    margin-top: 2vw;
+    opacity 1}
+
+    .text6:hover {
+      opacity: 0.6;
+    }
 
 .sunset{
       width: 40%;
       margin-left: 11vw;
       margin-top: 1vw;}
 
+      .sunset:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);}
+
 .hescode{
       width: 52%;
       margin-left: 9vw;
       margin-top: -6vw;}
+
+  .hescode:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);}
 
 .text106{
     font-family: ProximaNova;
@@ -243,17 +301,20 @@ po}
   background: #002EAB;
   height: 10.5vw;
   width: 26vw;
+  margin-left: 37vw;
+  position: relative;
+  animation: swim 25s ease-in-out infinite;
   animation-play-state: running;
   }
-
-  @keyframes swim {
-    0%{  left: 0vw; top: 0vw;}
-    50%{   left: 90vw; top: 0vw;}
-    75%{  left: 120vw; top: 0vw;}
-    100%{ left: 200vw; top: 0vw;}
-  }
+@keyframes swim {
+  0% {left: 0vw; right: 0vw}
+ 25% {left: 37vw; right: 0vw;}
+ 50% {left: 0vw; right: 0vw;}
+ 75% {left: -37vw; right: 0vw;}
+ 100% {left: 0vw; right: 0vw;}
+}
   .ship1:hover{
-  animation-play-state: paused;;}
+  animation-play-state: paused;}
 
   .murm{
     font-family: ProximaNova;
@@ -281,6 +342,19 @@ po}
   background: #002EAB;
   height: 10.5vw;
   width: 26vw;
+  position: relative;
+  animation: swim2 30s ease-in-out infinite;
+  animation-play-state: running;
+  }
+  .ship2:hover{
+  animation-play-state: paused;}
+
+  @keyframes swim2 {
+    0% {left: 74vw; right: 0vw}
+   25% {left: 0vw; right: 0vw;}
+   50% {left: 74vw; right: 0vw;}
+   75% {left: 0vw; right: 0vw;}
+   100% {left: 74vw; right: 0vw;}
   }
 
   .trip{
@@ -314,6 +388,19 @@ po}
   background: #ffffff;
   height: 10.5vw;
   width: 26vw;
+  position: relative;
+  animation: swim3 40s ease-in-out infinite;
+  animation-play-state: running;
+  }
+  .ship3:hover{
+  animation-play-state: paused;}
+
+  @keyframes swim3 {
+    0% {left: 0vw; right: 0vw}
+   25% {left: 74vw; right: 0vw;}
+   50% {left: 0vw; right: 0vw;}
+   75% {left: 74vw; right: 0vw;}
+   100% {left: 0vw; right: 0vw;}
   }
   .secret{
     font-family: ProximaNova;
@@ -327,11 +414,37 @@ po}
   background: #002EAB;
   height: 10.5vw;
   width: 26vw;
+  position: relative;
+  animation: swim4 20s ease-in-out infinite;
+  animation-play-state: running;
+  }
+  .ship4:hover{
+  animation-play-state: paused;}
+
+  @keyframes swim4 {
+    0% {left: 74vw; right: 0vw}
+   25% {left: 0vw; right: 0vw;}
+   50% {left: 74vw; right: 0vw;}
+   75% {left: 0vw; right: 0vw;}
+   100% {left: 74vw; right: 0vw;}
   }
   .ship5{
   background: #002EAB;
   height: 10.5vw;
   width: 26vw;
+  position: relative;
+  animation: swim5 17s ease-in-out infinite;
+  animation-play-state: running;
+  }
+  .ship5:hover{
+  animation-play-state: paused;}
+
+  @keyframes swim5 {
+    0% {left: 0vw; right: 0vw}
+   25% {left: 74vw; right: 0vw;}
+   50% {left: 0vw; right: 0vw;}
+   75% {left: 74vw; right: 0vw;}
+   100% {left: 0vw; right: 0vw;}
   }
 
   .key{
@@ -365,6 +478,19 @@ po}
   background: #002EAB;
   height: 10.5vw;
   width: 26vw;
+  position: relative;
+  animation: swim6 40s ease-in-out infinite;
+  animation-play-state: running;
+  }
+  .ship6:hover{
+  animation-play-state: paused;}
+
+  @keyframes swim6 {
+    0% {left: 74vw; right: 0vw}
+   25% {left: 0vw; right: 0vw;}
+   50% {left: 74vw; right: 0vw;}
+   70% {left: 0vw; right: 0vw;}
+   100% {left: 74vw; right: 0vw;}
   }
   .tokio{
     font-family: ProximaNova;
