@@ -148,7 +148,19 @@ height: 5vw}
     margin-left: 10vw;
     margin-top: 4vw;
     float: left;
-    display: block;}
+    display: block;
+    animation: rotate 2s linear infinite;
+    animation-play-state: paused;}
+
+    .arrowimg:hover{
+      animation-play-state: running;
+    }
+
+    @keyframes rotate {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(180deg);}
+}
+
 
 .whitebox2{
   background: #ffffff;
