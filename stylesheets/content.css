@@ -25,6 +25,19 @@ body{ background: #A6B8E3 ;
   grid-row-end: 2;
   height: 7vw}
 
+.bluelogo2{
+  position: absolute;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  height: 7vw;
+  margin-left: 0vw;
+  opacity: 1;}
+
+  .bluelogo2:hover {
+    opacity: 0;}
+
 .logowhite2{
   width: 100%;
 margin-top: 1vw}
@@ -80,9 +93,55 @@ height: 5vw}
   margin-left: 12vw;
   margin-top: 2vw;
   height: 6vw;
-  width: 20vw;
+  width: 25vw;
   float: left;
   display: block;}
+
+  .city1{
+    width: 15.5vw;
+    height: 3vw;
+    margin-top: 2vw;
+    margin-left: 1vw;
+    display: block;
+    background: url('../img/city1.svg');
+    animation: city1 5s steps(1) infinite;
+    animation-play-state: paused;
+  }
+.city1:hover{
+  animation-play-state: running;
+}
+
+  @keyframes city1 {
+  0% {background-position: 0vw 0vw;}   /* дакар */
+    20% {background-position: 0vw -3.7vw;} /* панама */
+    40% {background-position: 0vw -7.3vw;} /* жичжао */
+    60% {background-position: 0vw -10.9vw;} /* дюнкерк */
+    80% {background-position: 0vw -14.5vw;} /* хошимин */
+    100% {background-position: 0vw -18.5vw;} /* мельбурн */
+  }
+
+  .city2{
+    width: 22.2vw;
+    height: 3vw;
+    margin-top: 2vw;
+    margin-left: 0vw;
+    display: block;
+    background: url('../img/city2.svg');
+    animation: city2 5s steps(1) infinite;
+    animation-play-state: paused;
+  }
+.city2:hover{
+  animation-play-state: running;
+}
+
+  @keyframes city2 {
+  0% {background-position: 0vw 0vw;}   /* новоросийск */
+    20% {background-position: 0vw -3.7vw;} /* приморск */
+    40% {background-position: 0vw -7.3vw;} /* баирики */
+    60% {background-position: 0vw -10.9vw;} /* саутгемптон */
+    80% {background-position: 0vw -14.5vw;} /* владивосток */
+    100% {background-position: 0vw -18.5vw;} /* мельбурн */
+  }
 
   .arrowimg{
     width: 15%;
@@ -96,7 +155,7 @@ height: 5vw}
   margin-left: 10vw;
   margin-top: 2vw;
   height: 6vw;
-  width: 20vw;
+  width: 25vw;
   float: left;
   display: block;}
 
@@ -193,6 +252,25 @@ height: 29vw}
   grid-row-end: 5;
   height: 29vw}
 
+ .iconcup{
+   width: 15%;
+   margin-left: 2vw;
+   margin-top: 5vw;
+  }
+ .icontempr{
+   width: 10%;
+   margin-left: 1vw;
+  }
+ .iconfire{
+   width: 18%;
+   margin-left: 1vw;
+   margin-top: 1vw;
+}
+ .iconarrow{
+   width: 35%;
+   margin-left: 0vw;
+   padding-top: 2vw;
+}
   .text5{
     font-family: null;
     color:#002EAB;
@@ -514,6 +592,9 @@ height: 29vw}
   padding-top: 0vw;
   position: absolute;
 }
+.meters:hover {
+ color:#EA513A}
+
 .meters2{
   font-family: null;
   color:#ffffff;
@@ -523,6 +604,10 @@ height: 29vw}
   padding-top: 0vw;
   position: absolute;
 }
+
+.meters2:hover {
+ color:#EA513A}
+
 .meters3{
   font-family: null;
   color:#ffffff;
@@ -532,6 +617,9 @@ height: 29vw}
   padding-top: 0vw;
   position: absolute;
 }
+.meters3:hover {
+ color:#EA513A}
+
 
 .whitenet { grid-area: whitenet;
   background: #ffffff;
@@ -570,3 +658,17 @@ height: 29vw}
   grid-row-start: 7;
   grid-row-end: 8;
   height: 16vw}
+
+  .lastline{
+    font-family: ProximaNova;
+    color:#ffffff;
+    font-size: 1.4vw;
+    padding-top: 2vw;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: lastline 20s linear infinite;
+  }
+@keyframes lastline {
+  from {text-ident: -10%}
+  to {text-indent: 110%}
+}
