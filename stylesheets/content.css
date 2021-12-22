@@ -203,11 +203,11 @@ height: 29vw}
  animation: transform 0.6s ease;}
 
 @keyframes transform {
-  15% {transform: translateX(3vw) scale(1.2);}
-  30% {transform: translateX(-3vw) scale(1.2);}
-  40% {transform: translateX(2vw) scale(1.2);}
-  50% {transform: translateX(-2vw) scale(1.2);}
-  65% {transform: translateX(1vw) scale(1.2);}
+  15% {transform: translateX(1.5vw) scale(1.2);}
+  30% {transform: translateX(-1.5vw) scale(1.2);}
+  40% {transform: translateX(1vw) scale(1.2);}
+  50% {transform: translateX(-1vw) scale(1.2);}
+  65% {transform: translateX(0.5vw) scale(1.2);}
   100% {transform: translateX(0) scale(1.2);}
 }
 
@@ -265,24 +265,46 @@ height: 29vw}
   height: 29vw}
 
  .iconcup{
-   width: 15%;
+   width: 13%;
    margin-left: 2vw;
    margin-top: 5vw;
   }
+
+  .iconcup:hover {
+   animation: shake 0.6s ease;}
+
+  @keyframes shake {
+    15% {transform: translateX(1vw);}
+    30% {transform: translateX(-1vw) ;}
+    40% {transform: translateX(0.5vw) ;}
+    50% {transform: translateX(-0.5vw) ;}
+    65% {transform: translateX(0.1vw);}
+    100% {transform: translateX(0);}
+  }
+
  .icontempr{
-   width: 10%;
+   width: 9%;
    margin-left: 1vw;
   }
+  .icontempr:hover {
+   animation: shake 0.6s ease;}
+
  .iconfire{
    width: 18%;
    margin-left: 1vw;
    margin-top: 1vw;
 }
+.iconfire:hover {
+ animation: shake 0.6s ease;}
+
  .iconarrow{
    width: 35%;
    margin-left: 0vw;
    padding-top: 2vw;
 }
+.iconarrow:hover {
+ animation: shake 0.6s ease;}
+
   .text5{
     font-family: null;
     color:#002EAB;
@@ -330,9 +352,7 @@ height: 29vw}
       margin-left: 11vw;
       margin-top: 1vw;}
 
-      .sunset:hover {
-      -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
+    .sunset:hover {
       transform: scale(1.2);}
 
 .hescode{
@@ -340,9 +360,7 @@ height: 29vw}
       margin-left: 9vw;
       margin-top: -6vw;}
 
-  .hescode:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
+.hescode:hover {
     transform: scale(1.2);}
 
 .text106{
