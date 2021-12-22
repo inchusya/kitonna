@@ -1,27 +1,24 @@
 @media only screen and (min-width: 4480px) {
-
 	.city1{
 		width: 19.3vw;
     height: 2.8vw;
     margin-top: 1.5vw;
     margin-left: 1.8vw;
     display: block;
+		background-size: 500%;
     background: url('../img/city1.svg');
     animation: city1 6s steps(1) infinite;
-    animation-play-state: paused;
-  }
-.city1:hover{
-  animation-play-state: running;
-}
+    animation-play-state: paused;}
+   .city1:hover{
+     animation-play-state: running;}
 
-  @keyframes city1 {
+   @keyframes city1 {
 		0% {background-position: 0vw 0vw;}   /* дакар */
     16% {background-position: 0vw -4.5vw;} /* панама */
     32% {background-position: 0vw -9vw;} /* жичжао */
     48% {background-position: 0vw -13.5vw;} /* дюнкерк */
     64% {background-position: 0vw -18vw;} /* хошимин */
-    80% {background-position: 0vw -22.4vw;} /* мельбурн */
-  }
+    80% {background-position: 0vw -22.4vw;} /* мельбурн */}
 
   .city2{
 		width: 16.1vw;
@@ -31,20 +28,18 @@
      display: block;
      background: url('../img/city2.svg');
      animation: city2 5s steps(1) infinite;
-     animation-play-state: paused;
-  }
-.city2:hover{
-  animation-play-state: running;
-}
+     animation-play-state: paused;}
+  .city2:hover{
+    animation-play-state: running;}
 
-  @keyframes city2 {
+   @keyframes city2 {
 		0% {background-position: 0vw 0vw;}   /* дакар */
     16% {background-position: 0vw -4.5vw;} /* панама */
     32% {background-position: 0vw -9vw;} /* жичжао */
     48% {background-position: 0vw -13.5vw;} /* дюнкерк */
     64% {background-position: 0vw -18vw;} /* хошимин */
-    80% {background-position: 0vw -22.4vw;} /* мельбурн */
-  }
+    80% {background-position: 0vw -22.4vw;} /* мельбурн */}
+
 	 .whale { grid-area: whale;
 	  background: url('../img/whalesall.svg');
 		background-size: 106.5%;
@@ -62,8 +57,7 @@
 	   0% {background-position: 0vw 0vw;}  /* горбатый кит*/
 	  25% {background-position: 0vw -29.4vw;} /* белуха*/
 	  50% {background-position: 0vw -58.8vw;} /* финвал*/
-	  75% {background-position: 0vw -88.05vw;} /* полосатик*/
-}
+	  75% {background-position: 0vw -88.05vw;} /* полосатик*/}
 }
 
 @media only screen and (min-width: 1224px) {
@@ -75,7 +69,8 @@
     margin-top: 1.5vw;
     margin-left: 1.8vw;
     display: block;
-    background: url('../img/city1.svg');
+		background-size: 100%;
+    /* background: url('../img/city1.svg'); */
     animation: city1 6s steps(1) infinite;
     animation-play-state: paused;
   }
@@ -98,7 +93,8 @@
      margin-top: 1.5vw;
      margin-left: 3.5vw;
      display: block;
-     background: url('../img/city2.svg');
+		 background-size: 100%;
+     /* background: url('../img/city2.svg'); */
      animation: city2 5s steps(1) infinite;
      animation-play-state: paused;
   }
