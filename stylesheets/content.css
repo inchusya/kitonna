@@ -225,12 +225,12 @@ height: 29.3vw}
 
  .whale { grid-area: whale;
   background: url('../img/whalesall.svg');
+  background-size: 106.5%;
   grid-column-start: 3;
   grid-column-end: 6;
   grid-row-start: 3;
   grid-row-end: 4;
-  height: 29.3vw;
-  /* width: 80%; */
+   height: 29.3vw;
   animation:change 3s steps(1) infinite;
   animation-play-state: paused;}
 
@@ -239,9 +239,9 @@ height: 29.3vw}
 
   @keyframes change {
   0% {background-position: 0vw 0vw;}
-  30% {background-position: 0vw -29vw;}
-  60% {background-position: 0vw -58vw;}
-  100% {background-position: 0vw -87vw;}
+  30% {background-position: 0vw -29.35vw;}
+  60% {background-position: 0vw -58.5vw;}
+  100% {background-position: 0vw -87.5vw;}
 }
 
   .text4{
