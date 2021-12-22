@@ -177,7 +177,7 @@ grid-column-start: 1;
 grid-column-end: 3;
 grid-row-start: 3;
 grid-row-end: 4;
-height: 29vw}
+height: 29.3vw}
 
 
 
@@ -229,7 +229,7 @@ height: 29vw}
   grid-column-end: 6;
   grid-row-start: 3;
   grid-row-end: 4;
-  height: 29vw;
+  height: 29.3vw;
   weight: 80%;
   animation:change 3s steps(1) infinite;
   animation-play-state: paused;}
@@ -262,7 +262,7 @@ height: 29vw}
   grid-column-end: 3;
   grid-row-start: 4;
   grid-row-end: 5;
-  height: 29vw}
+  height: 29.3vw}
 
  .iconcup{
    width: 13%;
@@ -323,7 +323,7 @@ height: 29vw}
   grid-column-end: 5;
   grid-row-start: 4;
   grid-row-end: 5;
-  height: 29vw}
+  height: 29.3vw}
 
 .sun { grid-area: sun;
   background: #002EAB;
@@ -331,7 +331,7 @@ height: 29vw}
   grid-column-end: 6;
   grid-row-start: 4;
   grid-row-end: 5;
-  height: 29vw}
+  height: 29.3vw}
 
 
 
