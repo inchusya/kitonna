@@ -102,6 +102,7 @@ height: 5vw}
     height: 3vw;
     margin-top: 2vw;
     margin-left: 1vw;
+    background-size: 550%;
     display: block;
     background: url('../img/city1.svg');
     animation: city1 5s steps(1) infinite;
@@ -222,8 +223,7 @@ height: 29.3vw}
    animation: transform 0.6s ease;
    color:#EA513A}
 
-.whale { grid-area: whale;
-  /* background: #ffffff; */
+ .whale { grid-area: whale;
   background: url('../img/whalesall.svg');
   grid-column-start: 3;
   grid-column-end: 6;
