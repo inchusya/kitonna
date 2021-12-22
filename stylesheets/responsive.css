@@ -9,6 +9,75 @@
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   /* iPad Portrait */
+	.city1{
+    width: 15.5vw;
+    height: 3vw;
+    margin-top: 2vw;
+    margin-left: 1vw;
+    display: block;
+    background: url('../img/city1.svg');
+    animation: city1 5s steps(1) infinite;
+    animation-play-state: paused;
+  }
+.city1:hover{
+  animation-play-state: running;
+}
+
+  @keyframes city1 {
+  0% {background-position: 0vw 0vw;}   /* дакар */
+    20% {background-position: 0vw -3.7vw;} /* панама */
+    40% {background-position: 0vw -7.3vw;} /* жичжао */
+    60% {background-position: 0vw -10.9vw;} /* дюнкерк */
+    80% {background-position: 0vw -14.5vw;} /* хошимин */
+    100% {background-position: 0vw -18.5vw;} /* мельбурн */
+  }
+
+  .city2{
+    width: 22.2vw;
+    height: 3vw;
+    margin-top: 2vw;
+    margin-left: 0vw;
+    display: block;
+    background: url('../img/city2.svg');
+    animation: city2 5s steps(1) infinite;
+    animation-play-state: paused;
+  }
+.city2:hover{
+  animation-play-state: running;
+}
+
+  @keyframes city2 {
+  0% {background-position: 0vw 0vw;}   /* новоросийск */
+    20% {background-position: 0vw -3.7vw;} /* приморск */
+    40% {background-position: 0vw -7.3vw;} /* баирики */
+    60% {background-position: 0vw -10.9vw;} /* саутгемптон */
+    80% {background-position: 0vw -14.5vw;} /* владивосток */
+    100% {background-position: 0vw -18.5vw;} /* мельбурн */
+  }
+	.whale { grid-area: whale;
+	  /* background: #ffffff; */
+	  background: url('../img/whalesall.svg');
+	  grid-column-start: 3;
+	  grid-column-end: 6;
+	  grid-row-start: 3;
+	  grid-row-end: 4;
+	  /* height: 29.3vw; */
+		height: 100%;
+	  width: 100%;
+	  animation:change 3s steps(1) infinite;
+	  animation-play-state: paused;}
+
+	  .whale:hover{
+	  animation-play-state: running;}
+
+	  @keyframes change {
+	  0% {background-position: 0vw 0vw;}
+	  30% {background-position: 0vw -0vw;}
+	  60% {background-position: 0vw -0vw;}
+	  100% {background-position: 0vw -0vw;}
+	}
+
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
