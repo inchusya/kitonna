@@ -1,22 +1,13 @@
+@media only screen and (min-width: 4480px) {
 
-@media only screen and (min-width: 1224px) {
-  /* Desktop */
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* iPad */
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  /* iPad Portrait */
 	.city1{
-    width: 15.5vw;
-    height: 3vw;
-    margin-top: 2vw;
-    margin-left: 1vw;
+		width: 19.3vw;
+    height: 2.8vw;
+    margin-top: 1.5vw;
+    margin-left: 1.8vw;
     display: block;
     background: url('../img/city1.svg');
-    animation: city1 5s steps(1) infinite;
+    animation: city1 6s steps(1) infinite;
     animation-play-state: paused;
   }
 .city1:hover{
@@ -24,102 +15,529 @@
 }
 
   @keyframes city1 {
-  0% {background-position: 0vw 0vw;}   /* дакар */
-    20% {background-position: 0vw -3.7vw;} /* панама */
-    40% {background-position: 0vw -7.3vw;} /* жичжао */
-    60% {background-position: 0vw -10.9vw;} /* дюнкерк */
-    80% {background-position: 0vw -14.5vw;} /* хошимин */
-    100% {background-position: 0vw -18.5vw;} /* мельбурн */
+		0% {background-position: 0vw 0vw;}   /* дакар */
+    16% {background-position: 0vw -4.5vw;} /* панама */
+    32% {background-position: 0vw -9vw;} /* жичжао */
+    48% {background-position: 0vw -13.5vw;} /* дюнкерк */
+    64% {background-position: 0vw -18vw;} /* хошимин */
+    80% {background-position: 0vw -22.4vw;} /* мельбурн */
   }
 
   .city2{
-    width: 22.2vw;
-    height: 3vw;
-    margin-top: 2vw;
-    margin-left: 0vw;
-    display: block;
-    background: url('../img/city2.svg');
-    animation: city2 5s steps(1) infinite;
-    animation-play-state: paused;
+		width: 16.1vw;
+     height: 2.8vw;
+     margin-top: 1.5vw;
+     margin-left: 3.5vw;
+     display: block;
+     background: url('../img/city2.svg');
+     animation: city2 5s steps(1) infinite;
+     animation-play-state: paused;
   }
 .city2:hover{
   animation-play-state: running;
 }
 
   @keyframes city2 {
-  0% {background-position: 0vw 0vw;}   /* новоросийск */
-    20% {background-position: 0vw -3.7vw;} /* приморск */
-    40% {background-position: 0vw -7.3vw;} /* баирики */
-    60% {background-position: 0vw -10.9vw;} /* саутгемптон */
-    80% {background-position: 0vw -14.5vw;} /* владивосток */
-    100% {background-position: 0vw -18.5vw;} /* мельбурн */
+		0% {background-position: 0vw 0vw;}   /* дакар */
+    16% {background-position: 0vw -4.5vw;} /* панама */
+    32% {background-position: 0vw -9vw;} /* жичжао */
+    48% {background-position: 0vw -13.5vw;} /* дюнкерк */
+    64% {background-position: 0vw -18vw;} /* хошимин */
+    80% {background-position: 0vw -22.4vw;} /* мельбурн */
   }
-	.whale { grid-area: whale;
-	  /* background: #ffffff; */
+	 .whale { grid-area: whale;
 	  background: url('../img/whalesall.svg');
+		background-size: 106.5%;
 	  grid-column-start: 3;
 	  grid-column-end: 6;
 	  grid-row-start: 3;
-	  grid-row-end: 4;
-	  /* height: 29.3vw; */
-		height: 100%;
-	  width: 100%;
-	  animation:change 3s steps(1) infinite;
+		grid-row-end: 4;
+	  animation:change 4s steps(1) infinite;
 	  animation-play-state: paused;}
 
 	  .whale:hover{
 	  animation-play-state: running;}
 
 	  @keyframes change {
-	  0% {background-position: 0vw 0vw;}
-	  30% {background-position: 0vw -0vw;}
-	  60% {background-position: 0vw -0vw;}
-	  100% {background-position: 0vw -0vw;}
-	}
-
-
+	   0% {background-position: 0vw 0vw;}  /* горбатый кит*/
+	  25% {background-position: 0vw -29.4vw;} /* белуха*/
+	  50% {background-position: 0vw -58.8vw;} /* финвал*/
+	  75% {background-position: 0vw -88.05vw;} /* полосатик*/
 }
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* iPad Landscape */
 }
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* iPhone */
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
-  /* iPhone Portrait */
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
-  /* iPhone Landscape */
-	}
 
 @media only screen and (min-width: 1224px) {
   /* Desktop */
+
+	.city1{
+		width: 19.3vw;
+    height: 2.8vw;
+    margin-top: 1.5vw;
+    margin-left: 1.8vw;
+    display: block;
+    background: url('../img/city1.svg');
+    animation: city1 6s steps(1) infinite;
+    animation-play-state: paused;
+  }
+.city1:hover{
+  animation-play-state: running;
+}
+
+  @keyframes city1 {
+		0% {background-position: 0vw 0vw;}   /* дакар */
+    16% {background-position: 0vw -4.5vw;} /* панама */
+    32% {background-position: 0vw -9vw;} /* жичжао */
+    48% {background-position: 0vw -13.5vw;} /* дюнкерк */
+    64% {background-position: 0vw -18vw;} /* хошимин */
+    80% {background-position: 0vw -22.4vw;} /* мельбурн */
+  }
+
+  .city2{
+		width: 16.1vw;
+     height: 2.8vw;
+     margin-top: 1.5vw;
+     margin-left: 3.5vw;
+     display: block;
+     background: url('../img/city2.svg');
+     animation: city2 5s steps(1) infinite;
+     animation-play-state: paused;
+  }
+.city2:hover{
+  animation-play-state: running;
+}
+
+  @keyframes city2 {
+		0% {background-position: 0vw 0vw;}   /* дакар */
+    16% {background-position: 0vw -4.5vw;} /* панама */
+    32% {background-position: 0vw -9vw;} /* жичжао */
+    48% {background-position: 0vw -13.5vw;} /* дюнкерк */
+    64% {background-position: 0vw -18vw;} /* хошимин */
+    80% {background-position: 0vw -22.4vw;} /* мельбурн */
+  }
+	 .whale { grid-area: whale;
+	  background: url('../img/whalesall.svg');
+		background-size: 106.5%;
+	  grid-column-start: 3;
+	  grid-column-end: 6;
+	  grid-row-start: 3;
+		grid-row-end: 4;
+	  animation:change 4s steps(1) infinite;
+	  animation-play-state: paused;}
+
+	  .whale:hover{
+	  animation-play-state: running;}
+
+	  @keyframes change {
+	   0% {background-position: 0vw 0vw;}  /* горбатый кит*/
+	  25% {background-position: 0vw -29.4vw;} /* белуха*/
+	  50% {background-position: 0vw -58.8vw;} /* финвал*/
+	  75% {background-position: 0vw -88.05vw;} /* полосатик*/
+}
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* iPad */
+	.city1{
+		width: 19.3vw;
+    height: 2.8vw;
+    margin-top: 1.5vw;
+    margin-left: 1.8vw;
+    display: block;
+    background: url('../img/city1.svg');
+    animation: city1 6s steps(1) infinite;
+    animation-play-state: paused;
+  }
+.city1:hover{
+  animation-play-state: running;
+}
+
+  @keyframes city1 {
+		0% {background-position: 0vw 0vw;}   /* дакар */
+    16% {background-position: 0vw -4.5vw;} /* панама */
+    32% {background-position: 0vw -9vw;} /* жичжао */
+    48% {background-position: 0vw -13.5vw;} /* дюнкерк */
+    64% {background-position: 0vw -18vw;} /* хошимин */
+    80% {background-position: 0vw -22.4vw;} /* мельбурн */
+  }
+
+  .city2{
+		width: 16.1vw;
+     height: 2.8vw;
+     margin-top: 1.5vw;
+     margin-left: 3.5vw;
+     display: block;
+     background: url('../img/city2.svg');
+     animation: city2 5s steps(1) infinite;
+     animation-play-state: paused;
+  }
+.city2:hover{
+  animation-play-state: running;
+}
+
+  @keyframes city2 {
+		0% {background-position: 0vw 0vw;}   /* дакар */
+    16% {background-position: 0vw -4.5vw;} /* панама */
+    32% {background-position: 0vw -9vw;} /* жичжао */
+    48% {background-position: 0vw -13.5vw;} /* дюнкерк */
+    64% {background-position: 0vw -18vw;} /* хошимин */
+    80% {background-position: 0vw -22.4vw;} /* мельбурн */
+  }
+	 .whale { grid-area: whale;
+	  background: url('../img/whalesall.svg');
+		background-size: 106.5%;
+	  grid-column-start: 3;
+	  grid-column-end: 6;
+	  grid-row-start: 3;
+		grid-row-end: 4;
+	  animation:change 4s steps(1) infinite;
+	  animation-play-state: paused;}
+
+	  .whale:hover{
+	  animation-play-state: running;}
+
+	  @keyframes change {
+	   0% {background-position: 0vw 0vw;}  /* горбатый кит*/
+	  25% {background-position: 0vw -29.4vw;} /* белуха*/
+	  50% {background-position: 0vw -58.8vw;} /* финвал*/
+	  75% {background-position: 0vw -88.05vw;} /* полосатик*/
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   /* iPad Portrait */
+	.city1{
+		width: 19.3vw;
+    height: 2.8vw;
+    margin-top: 1.5vw;
+    margin-left: 1.8vw;
+    display: block;
+    background: url('../img/city1.svg');
+    animation: city1 6s steps(1) infinite;
+    animation-play-state: paused;
+  }
+.city1:hover{
+  animation-play-state: running;
+}
+
+  @keyframes city1 {
+		0% {background-position: 0vw 0vw;}   /* дакар */
+    16% {background-position: 0vw -4.5vw;} /* панама */
+    32% {background-position: 0vw -9vw;} /* жичжао */
+    48% {background-position: 0vw -13.5vw;} /* дюнкерк */
+    64% {background-position: 0vw -18vw;} /* хошимин */
+    80% {background-position: 0vw -22.4vw;} /* мельбурн */
+  }
+
+  .city2{
+		width: 16.1vw;
+     height: 2.8vw;
+     margin-top: 1.5vw;
+     margin-left: 3.5vw;
+     display: block;
+     background: url('../img/city2.svg');
+     animation: city2 5s steps(1) infinite;
+     animation-play-state: paused;
+  }
+.city2:hover{
+  animation-play-state: running;
+}
+
+  @keyframes city2 {
+		0% {background-position: 0vw 0vw;}   /* дакар */
+    16% {background-position: 0vw -4.5vw;} /* панама */
+    32% {background-position: 0vw -9vw;} /* жичжао */
+    48% {background-position: 0vw -13.5vw;} /* дюнкерк */
+    64% {background-position: 0vw -18vw;} /* хошимин */
+    80% {background-position: 0vw -22.4vw;} /* мельбурн */
+  }
+	 .whale { grid-area: whale;
+	  background: url('../img/whalesall.svg');
+		background-size: 106.5%;
+	  grid-column-start: 3;
+	  grid-column-end: 6;
+	  grid-row-start: 3;
+		grid-row-end: 4;
+	  animation:change 4s steps(1) infinite;
+	  animation-play-state: paused;}
+
+	  .whale:hover{
+	  animation-play-state: running;}
+
+	  @keyframes change {
+	   0% {background-position: 0vw 0vw;}  /* горбатый кит*/
+	  25% {background-position: 0vw -29.4vw;} /* белуха*/
+	  50% {background-position: 0vw -58.8vw;} /* финвал*/
+	  75% {background-position: 0vw -88.05vw;} /* полосатик*/
+	}
+
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   /* iPad Landscape */
+	.city1{
+		width: 19.3vw;
+    height: 2.8vw;
+    margin-top: 1.5vw;
+    margin-left: 1.8vw;
+    display: block;
+    background: url('../img/city1.svg');
+    animation: city1 6s steps(1) infinite;
+    animation-play-state: paused;
+  }
+.city1:hover{
+  animation-play-state: running;
+}
+
+  @keyframes city1 {
+		0% {background-position: 0vw 0vw;}   /* дакар */
+    16% {background-position: 0vw -4.5vw;} /* панама */
+    32% {background-position: 0vw -9vw;} /* жичжао */
+    48% {background-position: 0vw -13.5vw;} /* дюнкерк */
+    64% {background-position: 0vw -18vw;} /* хошимин */
+    80% {background-position: 0vw -22.4vw;} /* мельбурн */
+  }
+
+  .city2{
+		width: 16.1vw;
+     height: 2.8vw;
+     margin-top: 1.5vw;
+     margin-left: 3.5vw;
+     display: block;
+     background: url('../img/city2.svg');
+     animation: city2 5s steps(1) infinite;
+     animation-play-state: paused;
+  }
+.city2:hover{
+  animation-play-state: running;
+}
+
+  @keyframes city2 {
+		0% {background-position: 0vw 0vw;}   /* дакар */
+    16% {background-position: 0vw -4.5vw;} /* панама */
+    32% {background-position: 0vw -9vw;} /* жичжао */
+    48% {background-position: 0vw -13.5vw;} /* дюнкерк */
+    64% {background-position: 0vw -18vw;} /* хошимин */
+    80% {background-position: 0vw -22.4vw;} /* мельбурн */
+  }
+	 .whale { grid-area: whale;
+	  background: url('../img/whalesall.svg');
+		background-size: 106.5%;
+	  grid-column-start: 3;
+	  grid-column-end: 6;
+	  grid-row-start: 3;
+		grid-row-end: 4;
+	  animation:change 4s steps(1) infinite;
+	  animation-play-state: paused;}
+
+	  .whale:hover{
+	  animation-play-state: running;}
+
+	  @keyframes change {
+	   0% {background-position: 0vw 0vw;}  /* горбатый кит*/
+	  25% {background-position: 0vw -29.4vw;} /* белуха*/
+	  50% {background-position: 0vw -58.8vw;} /* финвал*/
+	  75% {background-position: 0vw -88.05vw;} /* полосатик*/
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* iPhone */
+
+	.city1{
+		width: 19.3vw;
+		height: 2.8vw;
+		margin-top: 1.5vw;
+		margin-left: 1.8vw;
+		display: block;
+		background: url('../img/city1.svg');
+		animation: city1 6s steps(1) infinite;
+		animation-play-state: paused;
+	}
+	.city1:hover{
+	animation-play-state: running;
+	}
+
+	@keyframes city1 {
+		0% {background-position: 0vw 0vw;}   /* дакар */
+		16% {background-position: 0vw -4.5vw;} /* панама */
+		32% {background-position: 0vw -9vw;} /* жичжао */
+		48% {background-position: 0vw -13.5vw;} /* дюнкерк */
+		64% {background-position: 0vw -18vw;} /* хошимин */
+		80% {background-position: 0vw -22.4vw;} /* мельбурн */
+	}
+
+	.city2{
+		width: 16.1vw;
+		 height: 2.8vw;
+		 margin-top: 1.5vw;
+		 margin-left: 3.5vw;
+		 display: block;
+		 background: url('../img/city2.svg');
+		 animation: city2 5s steps(1) infinite;
+		 animation-play-state: paused;
+	}
+	.city2:hover{
+	animation-play-state: running;
+	}
+
+	@keyframes city2 {
+		0% {background-position: 0vw 0vw;}   /* дакар */
+		16% {background-position: 0vw -4.5vw;} /* панама */
+		32% {background-position: 0vw -9vw;} /* жичжао */
+		48% {background-position: 0vw -13.5vw;} /* дюнкерк */
+		64% {background-position: 0vw -18vw;} /* хошимин */
+		80% {background-position: 0vw -22.4vw;} /* мельбурн */
+	}
+	 .whale { grid-area: whale;
+		background: url('../img/whalesall.svg');
+		background-size: 106.5%;
+		grid-column-start: 3;
+		grid-column-end: 6;
+		grid-row-start: 3;
+		grid-row-end: 4;
+		animation:change 4s steps(1) infinite;
+		animation-play-state: paused;}
+
+		.whale:hover{
+		animation-play-state: running;}
+
+		@keyframes change {
+		 0% {background-position: 0vw 0vw;}  /* горбатый кит*/
+		25% {background-position: 0vw -29.4vw;} /* белуха*/
+		50% {background-position: 0vw -58.8vw;} /* финвал*/
+		75% {background-position: 0vw -88.05vw;} /* полосатик*/
+
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
   /* iPhone Portrait */
+	.city1{
+		width: 19.3vw;
+    height: 2.8vw;
+    margin-top: 1.5vw;
+    margin-left: 1.8vw;
+    display: block;
+    background: url('../img/city1.svg');
+    animation: city1 6s steps(1) infinite;
+    animation-play-state: paused;
+  }
+.city1:hover{
+  animation-play-state: running;
+}
+
+  @keyframes city1 {
+		0% {background-position: 0vw 0vw;}   /* дакар */
+    16% {background-position: 0vw -4.5vw;} /* панама */
+    32% {background-position: 0vw -9vw;} /* жичжао */
+    48% {background-position: 0vw -13.5vw;} /* дюнкерк */
+    64% {background-position: 0vw -18vw;} /* хошимин */
+    80% {background-position: 0vw -22.4vw;} /* мельбурн */
+  }
+
+  .city2{
+		width: 16.1vw;
+     height: 2.8vw;
+     margin-top: 1.5vw;
+     margin-left: 3.5vw;
+     display: block;
+     background: url('../img/city2.svg');
+     animation: city2 5s steps(1) infinite;
+     animation-play-state: paused;
+  }
+.city2:hover{
+  animation-play-state: running;
+}
+
+  @keyframes city2 {
+		0% {background-position: 0vw 0vw;}   /* дакар */
+    16% {background-position: 0vw -4.5vw;} /* панама */
+    32% {background-position: 0vw -9vw;} /* жичжао */
+    48% {background-position: 0vw -13.5vw;} /* дюнкерк */
+    64% {background-position: 0vw -18vw;} /* хошимин */
+    80% {background-position: 0vw -22.4vw;} /* мельбурн */
+  }
+	 .whale { grid-area: whale;
+	  background: url('../img/whalesall.svg');
+		background-size: 106.5%;
+	  grid-column-start: 3;
+	  grid-column-end: 6;
+	  grid-row-start: 3;
+		grid-row-end: 4;
+	  animation:change 4s steps(1) infinite;
+	  animation-play-state: paused;}
+
+	  .whale:hover{
+	  animation-play-state: running;}
+
+	  @keyframes change {
+	   0% {background-position: 0vw 0vw;}  /* горбатый кит*/
+	  25% {background-position: 0vw -29.4vw;} /* белуха*/
+	  50% {background-position: 0vw -58.8vw;} /* финвал*/
+	  75% {background-position: 0vw -88.05vw;} /* полосатик*/
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
   /* iPhone Landscape */
+	.city1{
+		width: 19.3vw;
+    height: 2.8vw;
+    margin-top: 1.5vw;
+    margin-left: 1.8vw;
+    display: block;
+    background: url('../img/city1.svg');
+    animation: city1 6s steps(1) infinite;
+    animation-play-state: paused;
+  }
+.city1:hover{
+  animation-play-state: running;
 }
+
+  @keyframes city1 {
+		0% {background-position: 0vw 0vw;}   /* дакар */
+    16% {background-position: 0vw -4.5vw;} /* панама */
+    32% {background-position: 0vw -9vw;} /* жичжао */
+    48% {background-position: 0vw -13.5vw;} /* дюнкерк */
+    64% {background-position: 0vw -18vw;} /* хошимин */
+    80% {background-position: 0vw -22.4vw;} /* мельбурн */
+  }
+
+  .city2{
+		width: 16.1vw;
+     height: 2.8vw;
+     margin-top: 1.5vw;
+     margin-left: 3.5vw;
+     display: block;
+     background: url('../img/city2.svg');
+     animation: city2 5s steps(1) infinite;
+     animation-play-state: paused;
+  }
+.city2:hover{
+  animation-play-state: running;
+}
+
+  @keyframes city2 {
+		0% {background-position: 0vw 0vw;}   /* дакар */
+    16% {background-position: 0vw -4.5vw;} /* панама */
+    32% {background-position: 0vw -9vw;} /* жичжао */
+    48% {background-position: 0vw -13.5vw;} /* дюнкерк */
+    64% {background-position: 0vw -18vw;} /* хошимин */
+    80% {background-position: 0vw -22.4vw;} /* мельбурн */
+  }
+	 .whale { grid-area: whale;
+	  background: url('../img/whalesall.svg');
+		background-size: 106.5%;
+	  grid-column-start: 3;
+	  grid-column-end: 6;
+	  grid-row-start: 3;
+		grid-row-end: 4;
+	  animation:change 4s steps(1) infinite;
+	  animation-play-state: paused;}
+
+	  .whale:hover{
+	  animation-play-state: running;}
+
+	  @keyframes change {
+	   0% {background-position: 0vw 0vw;}  /* горбатый кит*/
+	  25% {background-position: 0vw -29.4vw;} /* белуха*/
+	  50% {background-position: 0vw -58.8vw;} /* финвал*/
+	  75% {background-position: 0vw -88.05vw;} /* полосатик*/
+	}
