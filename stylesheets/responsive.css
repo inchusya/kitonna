@@ -66,7 +66,7 @@
 	  75% {background-position: 0vw -88.05vw;} /* полосатик*/}
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 1224px) {
   /* iPad */
 	.city1{
 		width: 19.3vw;
@@ -131,7 +131,7 @@
 	  75% {background-position: 0vw -88.05vw;} /* полосатик*/
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 1224px) and (orientation: portrait) {
   /* iPad Portrait */
 	.city1{
 		width: 19.3vw;
@@ -196,7 +196,7 @@
 	  75% {background-position: 0vw -88.05vw;} /* полосатик*/ }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 1224px) and (orientation: landscape) {
   /* iPad Landscape */
 	.city1{
 		width: 19.3vw;
